@@ -1,4 +1,8 @@
 
+# Content:
+
+ 1. [Accessing variable from one job in another job within a GitHub Actions workflow](https://github.com/sarag5/KBBook/blob/main/Github_Action.md#accessing-variable-from-one-job-in-another-job-within-a-github-actions-workflow)
+
 ## Accessing variable from one job in another job within a GitHub Actions workflow
 
 Variables set in `GITHUB_ENV` apply only to the current job. To carry the value over to another job, you need a job output. Mind that you need to define the job output based on the step output.
